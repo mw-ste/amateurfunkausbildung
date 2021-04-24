@@ -54,9 +54,9 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 - verschwindet nach Sonnenuntergang schnell
 - absorbiert 80m (untere Kurzwelle) und 160m (Mittelwelle) Bänder
 
-- Mögel-Dellinger-Effekt:
-- D-Schicht soweit ionisiert, dass zeitweilig im gesamten Kurzwellenbereich keine Reflexion an der Ionosphäre möglich ist
-- lässt sich mit Leistungserhöhung teilweise ausgleichen
+- **Mögel-Dellinger-Effekt:**
+  - D-Schicht soweit ionisiert, dass zeitweilig im gesamten Kurzwellenbereich keine Reflexion an der Ionosphäre möglich ist
+  - lässt sich mit Leistungserhöhung teilweise ausgleichen
 
 ## E-Schicht
 
