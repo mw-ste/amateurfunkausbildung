@@ -51,8 +51,25 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 * lässt sich mit Leistungserhöhung teilweise ausgleichen
 
 ## E-Schicht
-## F1-Schicht
-## F2-Schicht
+* ab 100km
+* bildet sich Juni-August tagsüber
+* Reflektiert Kurzwelle, evtl UKW (evtl 2m, 6m, 10m)
+
+## F-Schicht
+* hauptverantwortlich für die Ionosphären-Reflexion
+* Mehrfach-Reflexionen, M-Reflexion, innerhalb der Ionosphäre möglich
+* Gleiches Phänomen auch bei Reflexion an Wasser
+
+### F1-Schicht
+* Spaltung der F-Schicht bei starker Sonneneinstrahlung
+* Dämpft die Reflektierten Wellen
+* Führt zu geringerer Reichweite: tagsüber Europa-Verkehr (short skip)
+
+### F2-Schicht
+* höchste Schicht, größte Höhenausdehnung
+* wenig abhängig von der Sonneneinstrahlung
+* für weiteste Reichweiten bis zu 4000km
+* nachts interkontinentaler Funkverkehr
 
 # Fading
 * bei ständigem Wechsel zwischen konstruktiver und destruktiver Überlagerung
