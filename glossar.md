@@ -1,0 +1,5 @@
+# Glossar
+
+* DX
+* Skip
+* Hop
