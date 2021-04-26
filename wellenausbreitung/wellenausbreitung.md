@@ -33,7 +33,11 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 
 - wiederholt sich alle 11 Jahre
 
-# Raumwelle
+# Solarer Flux
+- Energiestrahlung der Sonne
+- Werte über 100 führen zu höherem Ionisationsgrad uns zu besserer Fernausbreitung auf Kurzwelle
+
+# Reflexion der Raumwelle
 
 - Kritische Frequenz $f_k$
 - Frequenz bei der senkrecht in Ionosphäre eintretende Raumwelle gerade noch reflektiert wird
@@ -41,8 +45,22 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 - Maximal Usable Frequency MUF
 - alle Frequenzen drüber werden nur gebrochen, nicht reflektiert
 - Sekansgesetz $MUF \approx \frac{f_k}{sin \left( \alpha \right)} |_{\alpha \ge 40°}$
+- $MUF \approx \frac{f_k}{sin \left( \alpha \right)} = \frac{f_k}{cos \left( \varphi \right)}$
 - $\alpha$ Abstrahlungswinkel über der Horizontalen
-- beste Reichweite knapp unter der MUF, da Dämpfung am geringsten
+- $\varphi$ Winkel zwischen Einstrahlwinkel und Senkrechter
+- optimale Reichweite knapp unter der MUF, da Dämpfung am geringsten
+- $f_{opt} \approx 0.85 \cdot MUF$
+
+- je flacher der Auftreffwinkel auf die Ionosphäre, desto besser die Reflexion
+- für kurze Funkstrecken <1000km ist Steilstrahlung günstiger &rarr; short skip
+- für lange Funkstrecken (interkontinentale Funkverbindungen, DX) ist Flachstrahlung günstiger &rarr; langer Skip
+
+
+- <span style="color:red">Umrechnung langer Weg / kurzer Weg: `(Winkel + 180°) modulo 360°`</span>
+- <span style="color:red">Langer Weg: Funkverbindung nicht über den direkten Weg, sondern über die entgegen gesetzte Richtung</span>
+- <span style="color:red">Backscatter?</span>
+- <span style="color:red">Ionosphärischer Schwund: negative Verstärkung durch Phasenverchiebung</span>
+
 
 # Ionosphäre-Schichten
 
