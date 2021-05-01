@@ -8,3 +8,7 @@ Ich nutze dafür VSCode (bzw. eine Microsoft-freie Version davon, https://vscodi
 
 https://www.delta25.de/2021-EA/
 Erstes Treffen am Donnerstag, 29.4.2021, 19:00 Uhr
+
+## Afutest
+
+https://afutest.ewers.net/

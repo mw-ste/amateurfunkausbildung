@@ -34,6 +34,7 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 - wiederholt sich alle 11 Jahre
 
 # Solarer Flux
+
 - Energiestrahlung der Sonne
 - Werte über 100 führen zu höherem Ionisationsgrad uns zu besserer Fernausbreitung auf Kurzwelle
 
@@ -55,12 +56,10 @@ bis zur Überschrift **"Die Wellenausbreitung oberhalb 30 MHz"**
 - für kurze Funkstrecken <1000km ist Steilstrahlung günstiger &rarr; short skip
 - für lange Funkstrecken (interkontinentale Funkverbindungen, DX) ist Flachstrahlung günstiger &rarr; langer Skip
 
-
 - <span style="color:red">Umrechnung langer Weg / kurzer Weg: `(Winkel + 180°) modulo 360°`</span>
 - <span style="color:red">Langer Weg: Funkverbindung nicht über den direkten Weg, sondern über die entgegen gesetzte Richtung</span>
 - <span style="color:red">Backscatter?</span>
 - <span style="color:red">Ionosphärischer Schwund: negative Verstärkung durch Phasenverchiebung</span>
-
 
 # Ionosphäre-Schichten
 
