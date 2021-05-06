@@ -62,3 +62,4 @@
 
 ## 06.05.2021
 
+Radio Regulations (VO Funk): bezieht sich meistens auf internationale Verbindungen
