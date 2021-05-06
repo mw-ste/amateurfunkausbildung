@@ -58,3 +58,7 @@
 - Solarer Flux 100 und höher:
   - 10m geht jeden Tag
   - 40m hat tagsüber keine tote Zone
+
+
+## 06.05.2021
+
