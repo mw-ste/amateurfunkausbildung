@@ -57,7 +57,7 @@ def is_valid_word(word):
             print("Invalid word: \"{}\"".format(word))
             return False
     return True
-        
+
 
 def get_word():
     word = None
@@ -66,23 +66,23 @@ def get_word():
         response = requests.get(api_url)
         word = response.json()[0]["word"]
     return word
-    
-    
+
+
 def print_word(word):
     timeout = 5
     while timeout > 0:
-        print("\r{} ({})".format(word, timeout), end = "")    
+        print("\r{} ({})".format(word, timeout), end="")
         timeout -= 1
         time.sleep(1)
     print("\r{}{}".format("#" * len(word), " " * 4))
 
 
-if __name__ == "__main__":   
+if __name__ == "__main__":
     print("Drücke \"Enter\" zum Beginnen.")
     print("Drücke \"Strg + C\" zum Beenden.")
     print("Das Wort wird für jeweils 5 Sekunden angezeigt und verschwindet dann.")
     input()
-    
+
     while True:
         try:
             word = get_word()
@@ -91,8 +91,10 @@ if __name__ == "__main__":
                 answer = input("> ").strip().lower()
                 expected = translations[char.upper()].strip().lower()
                 if not answer == expected:
-                    print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\", Wort: \"{}\"".format(expected, answer, word))
-            input("Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
+                    print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\", Wort: \"{}\"".format(
+                        expected, answer, word))
+            input(
+                "Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
             print("#" * 80)
             print()
         except KeyboardInterrupt:
