@@ -68,33 +68,39 @@ def get_word():
     return word
 
 
-def print_word(word):
-    timeout = 5
+def print_with_timeout(word, timeout = 5):
+    text = ""
     while timeout > 0:
-        print("\r{} ({})".format(word, timeout), end="")
+        text = "\r{} ({})".format(word, timeout)
+        print(text, end="")
         timeout -= 1
         time.sleep(1)
-    print("\r{}{}".format("#" * len(word), " " * 4))
+    print("\r{}".format("#" * len(text)))
 
 
 if __name__ == "__main__":
     print("Drücke \"Enter\" zum Beginnen.")
     print("Drücke \"Strg + C\" zum Beenden.")
+    print("Gibt \"?\" ein, um das Wort und den aktuellen Buchstaben zu sehen zu sehen.")
     print("Das Wort wird für jeweils 5 Sekunden angezeigt und verschwindet dann.")
     input()
 
     while True:
         try:
             word = get_word()
-            print_word(word)
-            for char in prepare_word(word):
+            print_with_timeout(word)
+            prepared_word = prepare_word(word)
+            for index, char in enumerate(prepared_word):
                 answer = input("> ").strip().lower()
+                while answer == "?":
+                    progress = prepared_word[:index] + "_" + prepared_word[index] + "_" + prepared_word[index + 1:] 
+                    print_with_timeout(progress)
+                    answer = input("> ").strip().lower()
                 expected = translations[char.upper()].strip().lower()
                 if not answer == expected:
-                    print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\", Wort: \"{}\"".format(
-                        expected, answer, word))
-            input(
-                "Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
+                    print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\"".format(expected, answer))
+            input("Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
+            print()
             print("#" * 80)
             print()
         except KeyboardInterrupt:
