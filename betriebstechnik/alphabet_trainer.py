@@ -52,57 +52,81 @@ def prepare_word(word):
 def is_valid_word(word):
     if word == None or word == "":
         return False
-    for char in prepare_word(word):
-        if not char.upper() in translations.keys():
-            print("Invalid word: \"{}\"".format(word))
-            return False
+    valid = [char.upper() in translations.keys()
+             for char in prepare_word(word)]
+    if not all(valid):
+        print("Ungültiges Wort: \"{}\"".format(word))
+        return False
     return True
 
 
-def get_word():
+def get_word_from_api():
     word = None
     while not is_valid_word(word):
+        print("Hole neues Wort vom Server...")
         api_url = "http://api.corpora.uni-leipzig.de/ws/words/deu_news_2012_1M/randomword/?limit=1"
         response = requests.get(api_url)
         word = response.json()[0]["word"]
     return word
 
 
-def print_with_timeout(word, timeout = 5):
-    text = ""
+def print_with_timeout(text, timeout=5, overwrite="#"):
     while timeout > 0:
-        text = "\r{} ({})".format(word, timeout)
-        print(text, end="")
+        text_with_timeout = "\r{} ({})".format(text, timeout)
+        print(text_with_timeout, end="")
         timeout -= 1
         time.sleep(1)
-    print("\r{}".format("#" * len(text)))
+        print("\r{}".format(" " * len(text_with_timeout)), end="")
+    print("\r{}".format(overwrite * len(text)))
 
 
-if __name__ == "__main__":
+def prompt():
+    return input("> ").strip().lower()
+
+
+def show_progress(word, index):
+    progress = word[:index] + "_" + word[index] + "_" + word[index + 1:]
+    print_with_timeout(progress, overwrite=" ")
+
+
+def startup():
     print("Drücke \"Enter\" zum Beginnen.")
     print("Drücke \"Strg + C\" zum Beenden.")
     print("Gibt \"?\" ein, um das Wort und den aktuellen Buchstaben zu sehen zu sehen.")
     print("Das Wort wird für jeweils 5 Sekunden angezeigt und verschwindet dann.")
     input()
 
-    while True:
-        try:
-            word = get_word()
-            print_with_timeout(word)
-            prepared_word = prepare_word(word)
-            for index, char in enumerate(prepared_word):
-                answer = input("> ").strip().lower()
-                while answer == "?":
-                    progress = prepared_word[:index] + "_" + prepared_word[index] + "_" + prepared_word[index + 1:] 
-                    print_with_timeout(progress)
-                    answer = input("> ").strip().lower()
-                expected = translations[char.upper()].strip().lower()
-                if not answer == expected:
-                    print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\"".format(expected, answer))
-            input("Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
-            print()
-            print("#" * 80)
-            print()
-        except KeyboardInterrupt:
-            print("Ende")
-            break
+
+def main():
+    word = get_word_from_api()
+    prepared_word = prepare_word(word)
+    print_with_timeout(word)
+
+    for index, char in enumerate(prepared_word):
+        answer = prompt()
+
+        while answer == "?":
+            show_progress(prepared_word, index)
+            answer = prompt()
+
+        expected = translations[char.upper()].strip().lower()
+        if not answer == expected:
+            print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\"".format(
+                expected, answer))
+
+    print()
+    input("Fertig! Drücke \"Enter\" für ein neues Wort, drücke \"Strg + C\" zum Beenden. ")
+    print()
+    print("#" * 80)
+    print()
+
+
+if __name__ == "__main__":
+    try:
+        startup()
+
+        while True:
+            main()
+
+    except KeyboardInterrupt:
+        print("\nEnde")
