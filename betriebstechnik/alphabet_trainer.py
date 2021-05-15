@@ -6,9 +6,9 @@ Created on Thu May 13 13:29:35 2021
 @author: michi
 """
 
-import requests
 import time
-
+import requests
+from difflib import SequenceMatcher
 
 translations = {
     "A": "Alpha",
@@ -110,7 +110,7 @@ def main():
             answer = prompt()
 
         expected = translations[char.upper()].strip().lower()
-        if not answer == expected:
+        if SequenceMatcher(None, answer, expected).ratio() < 0.5:
             print("Falsch! Richtige Antwort: \"{}\", deine Antwort: \"{}\"".format(
                 expected, answer))
 
