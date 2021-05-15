@@ -181,3 +181,11 @@ A
   - auf keramischen Isolierkörper gewickelter Widerstandsdraht als Widerstandsmaterial
   - Hochlastwiderstände
   - nur im Niederfrequenzbereich (wegen Frequenzabhängigkeit durch Induktivität)
+
+## Skin-Effekt
+
+- stromdurchflossene Leiter erzeugen ein Magnetfeld
+- dieses wirkt auch innerhalb des Leiters
+- fließende Elektronen werden dabei aus der Mitte des Leiters an dessen Oberfläche gedrängt
+- ab etwa `10 MHz` quasi nur noch Stromfluss an der Leiteroberfläche
+- um den Stromfluss bei hohen Frequenzen zu verbessern kann die Leiteroberfläche versilbert werden, oder aus vielen einzelnen, verdrillten Adern aufgebaut werden
