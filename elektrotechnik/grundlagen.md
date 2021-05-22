@@ -187,7 +187,7 @@ U   |     *               *                          |
 - in einer Reihenschaltung ist die Summe der Teilspannungen so groß wie die Gesamtspannung
 - in einer Reihenschaltung ist die Summe der Teilwiderstände so groß wie der Gesamtwiderstand
 - in einer Reihenschaltung verhalten sich die Teilspannungen wie die jeweiligen Widerstände
-
+- $R_{ges} = R_1 + R_2 + \cdots + R_n$
 - $\frac{U_1}{U_2} = \frac{R_1}{R_2}$
 - $\frac{U_1}{U_{ges}} = \frac{R_1}{R_{ges}}$
 
@@ -211,5 +211,6 @@ U   |     *               *                          |
 - in einer Parallelschaltung ist die Summe der Teilströme so groß wie der Gesamtstrom
 - in einer Reihenschaltung ist die Summe der Teilleitwerte so groß wie der Gesamtleitwert
 - $\frac{1}{R_{ges}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}$
-- $R_{ges} = \frac{R_1 \cdot R_2}{R_1 + R_2}$
+- Parallelschaltung von 2 Widerständen: $R_{ges} = \frac{R_1 \cdot R_2}{R_1 + R_2}$
+- Parallelschaltung von 3 Widerständen: $R_{ges} = \frac{R_1 \cdot R_2 \cdot R_3}{R_1 \cdot R_2 + R_1 \cdot R_3 + R_2 \cdot R_3}$
 - Parallelschaltung von $n$ gleichen Widerständen: $R_{ges} = \frac{R}{n}$
