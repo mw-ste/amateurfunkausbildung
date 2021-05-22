@@ -144,44 +144,6 @@ U   |     *               *                          |
 - Außerdem gängig: Kilowattstunde `kWh`
 - "Gespeicherte Arbeit" &rarr; elektrische Energie
 
-## Bauformen von Widerständen
-
-- Festwiderstände
-- Einstellbare Widerstände (z.B. mechanisch einstellbar: Potentiometer)
-- Veränderliche Widerstände (z.B. abhängig von Temperatur oder Lichteinstrahlung)
-
-![widerstaende](https://www.darc.de/fileadmin/filemounts/referate/ajw/Onlinelehrgang/e04/Bild04-01.gif)
-
-- A: Festwiderstand
-- B: Von außen einstellbarer Widerstand (Potentiometer)
-- C: Interner einstellbarer Widerstand (Trimmer)
-- D: Allgemeines Schaltzeichen für einstellbaren Widerstand
-
-![widerstaende](https://www.darc.de/fileadmin/filemounts/referate/ajw/Onlinelehrgang/e04/Bild04-04.gif)
-
-- A: PTC (positive temp coefficient), Widerstand steigt mit der Temperatur
-- B: NTC (negative temp coefficient), Widerstand sinkt mit der Temperatur
-- C: VDR (voltage dependend resistor), spannungsgesteuerter Widerstand
-- D: LDR (light dependend resistor), Photoresistor
-
-### Festwiderstände
-
-- Kohleschichtwiderstände:
-  - dünne Kohleschicht als Widerstandsmaterial
-  - billig, aber große Herstellungstoleranz
-  - Belastbarkeit zwischen 0.1 bis 2 Watt
-- Metallschichtwiderstände:
-  - (Edel-) Metallschicht als Widerstandsmaterial
-  - Präzisionswiderstände
-  - Induktionsarm
-  - höhere Belastbarkeit
-- Metalloxidwiderstände:
-  - besonders für Hochfrequenz geeignet
-- Drahtwiderstände:
-  - auf keramischen Isolierkörper gewickelter Widerstandsdraht als Widerstandsmaterial
-  - Hochlastwiderstände
-  - nur im Niederfrequenzbereich (wegen Frequenzabhängigkeit durch Induktivität)
-
 ## Skin-Effekt
 
 - stromdurchflossene Leiter erzeugen ein Magnetfeld
@@ -189,3 +151,23 @@ U   |     *               *                          |
 - fließende Elektronen werden dabei aus der Mitte des Leiters an dessen Oberfläche gedrängt
 - ab etwa `10 MHz` quasi nur noch Stromfluss an der Leiteroberfläche
 - um den Stromfluss bei hohen Frequenzen zu verbessern kann die Leiteroberfläche versilbert werden, oder aus vielen einzelnen, verdrillten Adern aufgebaut werden
+
+## Künstliche Antenne
+
+- Widerstand von normalerweise $50 \Omega$
+- für Hochfrequenz geeignete Bauform
+- wird an den Antennenanschluss eines Senders angeschlossen um diesen zu testen
+- nimmt die Leistung des Senders auf um diesen zu entlasten
+- Englisch: "Dummy Load"
+
+## Strom- und Spannungsquelle
+
+- Spannungsquelle:
+  - liefert bei wechselnder Last annähernd gleiche Spannung
+  - möglichst niedriger Innenwiderstand
+- Stromquelle:
+  - liefert bei wechselnder Last mäglichst gleichen Stromfluss
+  - möglichst hoher Innenwiderstand
+- Leistungsanpassung:
+  - Quelle liefert maximale Leistung
+  - wenn Innenwiderstand gleich der angeschlossenen Last
