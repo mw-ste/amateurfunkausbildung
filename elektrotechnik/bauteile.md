@@ -38,5 +38,26 @@
   - Hochlastwiderstände
   - nur im Niederfrequenzbereich (wegen Frequenzabhängigkeit durch Induktivität)
 
-## Temperaturkoeffizienten
+## Spezifischer Widerstand
 
+- der Widerstand eines Leiter ist abhängig vom Leiterquerschnitt, der Leiterlänge und dem Material aus dem der Leiter gefertigt ist
+- die Materialabhängigkeit wird durch den spezifischen Widerstand $\rho$ charakterisiert
+- die Einheit des spezifischen Widerstands ist $\frac{\Omega \cdot mm^2}{m} = \frac{A \cdot m}{V \cdot mm^2}$
+- der Widerstand steigt mit zunehmender Länge, zunehmendem spezifischen Widerstand und abnehmendem Querschnitt
+- der Kehrwert des spezifischen Widerstands ist die elektrische Leitfähigkeit $\kappa = \frac{1}{\rho}$
+
+| Material    | spezifischer Widerstand $\left[ \frac{\Omega \cdot mm^2}{m} \right]$ | Leitfähigkeit $\left[ \frac{m}{\Omega \cdot mm^2} \right]$ |
+| ----------- | -------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Silber      | 0.016                                                                | 63                                                         |
+| Kupfer      | 0.0178                                                               | 58                                                         |
+| Gold        | 0.022                                                                | 45                                                         |
+| Aluminium   | 0.027                                                                | 37                                                         |
+| Eisen       | 0.10                                                                 | 10                                                         |
+| Zinn        | 0.115                                                                | 8                                                          |
+| Blei        | 0.208                                                                | 5                                                          |
+| Quecksilber | 0.958                                                                | 1                                                          |
+
+- Widerstand eines Leiter nach der obigen Tabelle: $R = \frac{\rho \cdot l}{A}$
+- Leiterdurchmesser $A$ in $mm^2$
+
+## Temperaturkoeffizienten

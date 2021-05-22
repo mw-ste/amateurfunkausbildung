@@ -38,6 +38,13 @@ Umrechnung Wellenlänge in `m` zu Frequenz in `MHz`:
 - $\varphi$ Winkel zwischen Einstrahlwinkel und Senkrechter an F2
 - $f_{opt} \approx 0.85 \cdot \text{MUF}$
 
+### Widerstand und Leistung
+
+- $U = R \cdot I$
+- $P = U \cdot I$
+- $P = I^2 \cdot R$
+- $P = \frac{U^2}{R}$
+
 ### Dämpfung
 
 - Leistung
@@ -45,3 +52,6 @@ Umrechnung Wellenlänge in `m` zu Frequenz in `MHz`:
   - Verstärkung $g = 10 \cdot log \left( \frac{P_O}{P_I} \right) \text{dB}$
 - Spannung
   - Dämpfung $a_U = 20 \cdot log \left( \frac{U_I}{U_O} \right) \text{dB}$
+
+### Kreis
+* Fläche $A = r^2 \cdot \pi$

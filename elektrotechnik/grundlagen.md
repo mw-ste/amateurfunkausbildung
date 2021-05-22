@@ -171,3 +171,45 @@ U   |     *               *                          |
 - Leistungsanpassung:
   - Quelle liefert maximale Leistung
   - wenn Innenwiderstand gleich der angeschlossenen Last
+
+# Reihen- und Parallelschaltung
+
+## Reihenschaltung
+
+```
+          ---> U1         ---> U2
+         ________        ________
+    o---|________|------|________|---o
+           R1              R2
+```
+
+- in einer Reihenschaltung ist der Strom überall gleich groß
+- in einer Reihenschaltung ist die Summe der Teilspannungen so groß wie die Gesamtspannung
+- in einer Reihenschaltung ist die Summe der Teilwiderstände so groß wie der Gesamtwiderstand
+- in einer Reihenschaltung verhalten sich die Teilspannungen wie die jeweiligen Widerstände
+
+- $\frac{U_1}{U_2} = \frac{R_1}{R_2}$
+- $\frac{U_1}{U_{ges}} = \frac{R_1}{R_{ges}}$
+
+## Parallelschaltung
+
+```
+
+            ---> U1
+           ________
+      |---|________|---|
+      |                |
+      |       R1       |
+  o---|                |---o
+      |       R2       |
+      |    ________    |
+      |---|________|---|
+            ---> U2
+```
+
+- in einer Parallelschaltung ist die Spannung über alle Widerstände gleich groß
+- in einer Parallelschaltung ist die Summe der Teilströme so groß wie der Gesamtstrom
+- in einer Reihenschaltung ist die Summe der Teilleitwerte so groß wie der Gesamtleitwert
+- $\frac{1}{R_{ges}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}$
+- $R_{ges} = \frac{R_1 \cdot R_2}{R_1 + R_2}$
+- Parallelschaltung von $n$ gleichen Widerständen: $R_{ges} = \frac{R}{n}$
