@@ -1,5 +1,16 @@
 # RST-System
 
+- `R` Readability
+  - "Lesbarkeit" bei CW
+  - "Verständlichkeit" bei Sprechfunk
+- `S` Strength
+  - Signalstärke
+  - Messbar mit S-Meter
+  - Entsprechungen in dB
+- `T` Tone, nur bei CW
+
+## Bewertung
+
 |     | `R` Readability | `S` Strength | `T` Tone (nur bei CW) |
 | --- | --------------- | ------------ | --------------------- |
 | `1` | nicht lesbar    | kaum hörbar  | äußerst roh           |
@@ -12,9 +23,11 @@
 | `8` |                 | stark        | etwas verbrummt       |
 | `9` |                 | sehr stark   | rein                  |
 
+## Erklärung
+
 - RST-Angabe bei CW zum Beispiel: 599 (bester Empfang)
 - `T` wird nur bei CW angegeben
-- RST-Angabe bei Phonie zum Beispiel: 59 (bester Empfang)
+- RST-Angabe bei Sprechfunk zum Beispiel: 59 (bester Empfang)
 - Normalerweise wird `R5` angegeben
 - Nur bei Schwierigkeiten wird `R4` oder `R3` angegeben
 - `R3` oder weniger erfordert eine Erklärung
