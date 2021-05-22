@@ -2,15 +2,15 @@
 
 |     | `R` Readability | `S` Strength | `T` Tone (nur bei CW) |
 | --- | --------------- | ------------ | --------------------- |
-| 1   | nicht lesbar    | kaum hörbar  | äußerst roh           |
-| 2   | kaum lesbar     | sehr schwach | sehr roh              |
-| 3   | schwach lesbar  | schwach      | roh                   |
-| 4   | lesbar          | mäßig        | leicht roh            |
-| 5   | gut lesbar      | ausreichend  | musikalisch           |
-| 6   |                 | gut hörbar   | moduliert             |
-| 7   |                 | mäßig stark  | instabil              |
-| 8   |                 | stark        | etwas verbrummt       |
-| 9   |                 | sehr stark   | rein                  |
+| `1` | nicht lesbar    | kaum hörbar  | äußerst roh           |
+| `2` | kaum lesbar     | sehr schwach | sehr roh              |
+| `3` | schwach lesbar  | schwach      | roh                   |
+| `4` | lesbar          | mäßig        | leicht roh            |
+| `5` | gut lesbar      | ausreichend  | musikalisch           |
+| `6` |                 | gut hörbar   | moduliert             |
+| `7` |                 | mäßig stark  | instabil              |
+| `8` |                 | stark        | etwas verbrummt       |
+| `9` |                 | sehr stark   | rein                  |
 
 - RST-Angabe bei CW zum Beispiel: 599 (bester Empfang)
 - `T` wird nur bei CW angegeben
