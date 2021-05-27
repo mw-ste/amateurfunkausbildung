@@ -59,7 +59,20 @@
   - 10m geht jeden Tag
   - 40m hat tagsüber keine tote Zone
 
-
 ## 06.05.2021
 
 Radio Regulations (VO Funk): bezieht sich meistens auf internationale Verbindungen
+
+## 20.05.2021
+
+## 27.05.2021
+
+- `10 dB` = `1 Bel` $\hat{=}$ Faktor `10`
+- `20 dB` = `2 Bel` $\hat{=}$ Faktor `100`
+- `Bel` entspricht quasi der Anzahl der Nullen
+- `dB` entspricht der Anzahl der Nullen $\times 10$
+- bzw. `n Bel` $\hat{=} 10^n$
+- $n = log_{10} \left( 10^n \right)$
+- Ergo: $log_{10} \left( x \right)$ ergibt den Faktor `x`in `Bel`
+- auch für nicht durch 10 teilbare Werte von `x`
+- dann ergeben sich nicht-ganzzahlige Werte in `Bel`
