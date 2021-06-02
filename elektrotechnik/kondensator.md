@@ -37,38 +37,123 @@
 - $C_{ges} = \frac{C_1 \cdot C_2}{C_1 + C_2}$
 - Berechnung wie bei parallelgeschalteten Widerständen
 
+## Ent-/Ladevorgang
+
+```
+     A
+     |                       *
+   U |                *
+     |           *
+63%  ---------*
+     |     *
+     |   *
+     |  *
+     | *
+     |*
+     |*
+     |---------------------------------------> t
+
+```
+
+```
+     A
+     |*
+   U |*
+     | *
+     |  *
+     |   *
+     |     *
+37% ----------*
+     |           *
+     |                *
+     |                       *
+     |---------------------------------------> t
+```
+
+- zunächst fließt ein hoher Ladestrom
+- mit zunehmender Ladung nimmt der Ladestrom ab
+- charakterisiert durch die Zeitkonstante $\tau$
+- die Zeitkonstante entspricht der Zeit, in der ein Kondensator um 63% ge- bzw. entladen wurde
+
+* **Formelzeichen**: $\tau$
+* **Einheit**: Sekunde
+
+- $\tau = R \cdot C$
+- $R$ ist der Widerstand im Ent-/Ladestromkreis
+- der Entladestrom fließt entgegen dem Ladestrom
+
 ## Wechselstromwiderstand
 
 - ein Kondensator sperrt Gleichstrom und lässt Wechselstrom fließen
 - er stellt damit einen frequenzabhängigen Widerstand dar
 - Wechselstromwiderstand des Kondensators $X_C$
+- kapazitiver Blindwiderstand $X_C$
+- Kreisfrequenz $\omega = 2 \pi \cdot f$
+
 - $X_c = \frac{U_C}{I_C}$
-- $X_c = \frac{1}{2 \pi \cdot f \cdot C}$
+- $X_c = \frac{1}{2 \pi \cdot f \cdot C} = \frac{1}{\omega \cdot C}$
+- $I_C = \omega \cdot C \cdot U_C$
+- $U_C = \frac{I_C}{\omega \cdot C}$
+
 - sinkt mit zunehmender Frequenz und Kapazität
+- außerdem ergibt sich ein Phasenversatz zwischen Strom und Spannung
+- am Kondensator eilt der Strom um eine viertel Periode der Spannung voraus
+
+## Scheinwiderstand
+
+```
+      |  |     _____
+ o----|  |----|_____|-----o
+      |  |
+```
+
+* der Scheinwiderstand $Z$ realer Kondensatoren setzen sich aus Blindwiderstand $X_C$ und Wirkwiderstand $R$ zusammen
+* $Z = \sqrt{R^2 + {X_C}^2}$
+
+## Verlustbehafteter Widerstand
+```
+             ---> I_R
+             _____
+      +-----|_____|-----+
+      |       R_V       |
+      |                 |
+o-----|                 |-----o
+      |       ||        |
+      +-------||--------+
+              ||
+
+             ---> I_C
+```
+* Verlustwärme durch parallelgeschalteten Widerstand $R_V$
+* Verlustfaktor $tan \left( \delta \right)$
+* Gütefaktor $\frac{1}{tan \left( \delta \right)}$
+* $tan \left( \delta \right) = \frac{I_R}{I_C} = \frac{X_C}{R_V}$
 
 ## Bauformen
 
-* besteht aus gegenüberliegenden Leitern
-* getrennt durch ein Dielektrikum
-* einstellbare Plattendrehkondensatoren (Rotor/Stator)
-* Elektrolytkondensatoren (Elko) (Polung beachten!)
+- besteht aus gegenüberliegenden Leitern
+- getrennt durch ein Dielektrikum
+- einstellbare Plattendrehkondensatoren (Rotor/Stator)
+- Elektrolytkondensatoren (Elko) (Polung beachten!)
 
 ![Kondensatoren](https://www.darc.de/fileadmin/filemounts/referate/ajw/Onlinelehrgang/e05/Bild05-08SchaltsymboleC.gif)
-    a) allgemein
-    b) einstellbar (Trimmer)
-    c) veränderbar
-    d) gepolt
-    e) Elko gepolt
-    f) Elko ungepolt
+a) allgemein
+b) einstellbar (Trimmer)
+c) veränderbar
+d) gepolt
+e) Elko gepolt
+f) Elko ungepolt
 
 ## Dielektrikum
-* gut isolieren
-* hoher Dielektrizitätswert
-    * Keramik
-    * Kunststoff
-    * Luft
+
+- gut isolieren
+- hoher Dielektrizitätswert
+  - Keramik
+  - Kunststoff
+  - Luft
 
 ## Kapazitätsangabe
-* oft Buchstabe der Größenordnung anstatt Dezimalzeichen
-* `m47` &rarr; `0.47 mF`
-* `4µ7` &rarr; `4.7 µF`
+
+- oft Buchstabe der Größenordnung anstatt Dezimalzeichen
+- `m47` &rarr; `0.47 mF`
+- `4µ7` &rarr; `4.7 µF`
