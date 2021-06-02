@@ -61,3 +61,7 @@
 - Leiterdurchmesser $A$ in $mm^2$
 
 ## Temperaturkoeffizienten
+
+- positiv für Metalle `PTC`
+- negativ für Halbleiter `NTC`
+- deshalb bei Halbleitern möglich: Thermal Runway
