@@ -8,8 +8,13 @@
 - fließt Strom durch eine Spule, so kann sie Energie in einem magnetischen Feld speichern
 
 - $L = \frac{\mu \cdot A \cdot N^2}{l}$
+- $\mu = \mu_0 \cdot \mu_r$
+- Permeabilitätskonstante des Luftleeren Raums $\mu_r = 1.2566 \frac{Vs}{Am}$
+- relative Permeabilität $\mu_r$
 
 - die Induktivität der Spule ist abhängig von der Windungszahl `N`, der Länge `l` und der Querschnittsfläche `A` der Spule und der Permeabilität `µ` des Kernmaterials
+
+- Kernfaktor, $A_L$-Wert für erhältliche Wickelkörper: $A_L = \frac{\mu_0 \cdot \mu_r \cdot A}{l}$
 
 - Übliche Wertebereich der Induktivität
   - `µH` für Luftspulen
