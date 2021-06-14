@@ -11,7 +11,7 @@
 - **Formelzeichen**: `C`
 - **Einheit**: Farad $1F = 1 \frac{As}{V}$
 
-- wird ein Kondensator durch eine Spannung aufgeladen, so kann er Energie speichern
+- wird ein Kondensator durch eine Spannung aufgeladen, so kann er Energie in einem elektrischen Feld speichern
 - dieses Speichervermögen ist seine Kapazität `C`
 - die gespeicherte Ladung `Q` ist abhängig von der Kapazität `C` des Kondensator und der angelegten Spannung `U`
 
