@@ -72,6 +72,10 @@
 - Verlustfaktor $tan \left( \delta \right)$
 - $Q =  \frac{1}{tan \left( \delta \right)}$
 
+- vor allem in Transformatoren darf in der Spule nicht zu viel Wärme entstehen
+- daher oft angabe der maximal zulässigen Stromdichte $S = \frac{I}{A}$
+- Strom pro Leiterfläche, Einheit $\frac{A}{mm^2}$
+
 ## Bauformen
 
 - Luftspule
@@ -112,6 +116,33 @@ U_1 |   N_1       ) (      N_2   | U_2
 - getrennte Spulen die über das gleiche magnetische Feld verbunden sind
 - Verhältnisse der **Wechselspannungen** entsprechen denen der Windungen
 - man spricht von Primärseite und Sekundärseite
+- ein verlustloser Transformator wird als Übertrager bezeichnet
 
 - Übersetzungsverhältnis `ü`
 - $ü = \frac{N_1}{N_2} = \frac{U_1}{U_2}$
+- Energieerhaltung: $P_1 = P_2$
+
+## Übertrager
+
+- bei geringen Leistungen spricht man bei einem Transformator von einem Übertrager
+- er kann genutzt werden, um Widerstände zu übersetzen
+
+- $ü = \sqrt{\frac{R_1}{R_2}}$
+- $R_1 = ü^2 \cdot R_2$
+
+## Balun-Transformator
+
+- **Bal**anced-**Un**balanced-Transformator
+
+```
+      A o--------|   |--------o A
+                  ) (
+            N_1   ) (   N_2
+      M o---------) (
+                  ) (
+                  ) (
+                     |--------o B
+```
+
+- $\sqrt{\frac{R_1}{R_2}} = \frac{N_1}{N_2} = \frac{1}{2}$
+- $\frac{R_2}{R_1} = 4$
