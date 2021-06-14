@@ -22,3 +22,22 @@
 * daher steigt der Strom am Ausgang der Spulenicht nicht sprunghaft an
 * zunächst wird Energie in das Magnetfeld übertragen
 * sobald sich der Strom durch die Spule ändert wird eine Gegenspannung (Selbstinduktionsspannung) erzeugt
+
+
+## Bauformen
+
+* Luftspule
+    * kann selbst gewickelt werden
+    * einzelne Wickelkörper verfügbar
+    * einstellbare Abgreifer möglich
+
+* Mit Ferritkern
+    * einstellbare Kerne möglich
+
+* Printspule
+    * gedruckt auf Leiterplatte
+    * UHF-Bereich
+
+* Vermeidung schädlicher Kapazitäten
+    * Kreuzwickelspule
+    * in Kammern unterteilte Spulenkörper
