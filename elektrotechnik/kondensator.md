@@ -41,7 +41,7 @@
 
 ```
      A
-     |                       *
+     |                       *        *
    U |                *
      |           *
 63%  ---------*
@@ -66,7 +66,7 @@
 37% ----------*
      |           *
      |                *
-     |                       *
+     |                       *        *
      |---------------------------------------> t
 ```
 
@@ -97,18 +97,8 @@
 
 - sinkt mit zunehmender Frequenz und Kapazität
 - außerdem ergibt sich ein Phasenversatz zwischen Strom und Spannung
-- am Kondensator eilt der Strom um eine viertel Periode der Spannung **voraus**
-
-## Scheinwiderstand
-
-```
-      |  |     _____
- o----|  |----|_____|-----o
-      |  |
-```
-
-- der Scheinwiderstand $Z$ realer Kondensatoren setzen sich aus Blindwiderstand $X_C$ und Wirkwiderstand $R$ zusammen
-- $Z = \sqrt{R^2 + {X_C}^2}$
+- am Kondensator eilt der Strom um eine viertel Periode ($\frac{\pi}{2}$, 90°) der Spannung **voraus**
+- "Am Kontensa*tor*, eilt der Strom _vor_"
 
 ## Verlustbehafteter Widerstand
 
