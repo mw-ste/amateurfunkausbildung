@@ -25,17 +25,17 @@
 
 ## Schaltungen
 
-### Parallelschaltung
-
-- (es steigt quasi die Fläche `A`)
-- die Gesamtkapazität einer Parallelschaltung aus Kondensatoren entspricht der Summe der Einzelkapazitäten
-
 ### Reihenschaltung
 
 - (es steigt quasi der Abstand `d`)
 - $\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots + \frac{1}{C_N}$
 - $C_{ges} = \frac{C_1 \cdot C_2}{C_1 + C_2}$
 - Berechnung wie bei parallelgeschalteten Widerständen
+
+### Parallelschaltung
+
+- (es steigt quasi die Fläche `A`)
+- die Gesamtkapazität einer Parallelschaltung aus Kondensatoren entspricht der Summe der Einzelkapazitäten
 
 ## Ent-/Ladevorgang
 
@@ -90,14 +90,14 @@
 - kapazitiver Blindwiderstand $X_C$
 - Kreisfrequenz $\omega = 2 \pi \cdot f$
 
-- $X_c = \frac{U_C}{I_C}$
-- $X_c = \frac{1}{2 \pi \cdot f \cdot C} = \frac{1}{\omega \cdot C}$
+- $X_C = \frac{U_C}{I_C}$
+- $X_C = \frac{1}{2 \pi \cdot f \cdot C} = \frac{1}{\omega \cdot C}$
 - $I_C = \omega \cdot C \cdot U_C$
 - $U_C = \frac{I_C}{\omega \cdot C}$
 
 - sinkt mit zunehmender Frequenz und Kapazität
 - außerdem ergibt sich ein Phasenversatz zwischen Strom und Spannung
-- am Kondensator eilt der Strom um eine viertel Periode der Spannung voraus
+- am Kondensator eilt der Strom um eine viertel Periode der Spannung **voraus**
 
 ## Scheinwiderstand
 
@@ -107,10 +107,11 @@
       |  |
 ```
 
-* der Scheinwiderstand $Z$ realer Kondensatoren setzen sich aus Blindwiderstand $X_C$ und Wirkwiderstand $R$ zusammen
-* $Z = \sqrt{R^2 + {X_C}^2}$
+- der Scheinwiderstand $Z$ realer Kondensatoren setzen sich aus Blindwiderstand $X_C$ und Wirkwiderstand $R$ zusammen
+- $Z = \sqrt{R^2 + {X_C}^2}$
 
 ## Verlustbehafteter Widerstand
+
 ```
              ---> I_R
              _____
@@ -124,10 +125,11 @@ o-----|                 |-----o
 
              ---> I_C
 ```
-* Verlustwärme durch parallelgeschalteten Widerstand $R_V$
-* Verlustfaktor $tan \left( \delta \right)$
-* Gütefaktor $\frac{1}{tan \left( \delta \right)}$
-* $tan \left( \delta \right) = \frac{I_R}{I_C} = \frac{X_C}{R_V}$
+
+- Verlustwärme durch parallelgeschalteten Widerstand $R_V$
+- Verlustfaktor $tan \left( \delta \right)$
+- Gütefaktor $\frac{1}{tan \left( \delta \right)}$
+- $tan \left( \delta \right) = \frac{I_R}{I_C} = \frac{X_C}{R_V}$
 
 ## Bauformen
 
