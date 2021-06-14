@@ -35,3 +35,60 @@
 
 - Für besondere Anlässe (Messen, Ausstellungen) können Gruppen bei der BNetzA ein Kurzzeit-Sonderrufzeichen beantragen
 - Für diesen Zweck wurde der **Rufzeichenblock DA0** reserviert
+
+## Exterritoriale Gebiete
+
+- Für Amateurfunkstellen in den Polargebieten, in der Antarktis oder im Weltraum betrieben ist der **Rufzeichenblock DP** reserviert
+
+## Relaisfunkstellen
+
+- Für Relaisfunkstellen und Digipeater sowie für Funkbaken wurde der Rufzeichenblock DB0 reserviert
+- maximal zulässige Strahlungsleistung einer Relaisfunkstelle oberhalb von 30 MHz beträgt 15 Watt ERP
+
+## Funkbaken
+
+- Sender, die Signale zur Feldstärkebeobachtung aussenden
+- die meisten Baken arbeiten im VHF-/UHF-/SHF-Bereich
+- sie senden ständig ihre Kennung
+- Kennung besteht mindestens aus:
+  - Rufzeichen
+  - Standortkenner (Locator)
+- auf ihren Frequenzen darf nicht gesendet werden
+
+| Band | von         | bis         |
+| ---- | ----------- | ----------- |
+| VHF  | 144.400 MHz | 144.490 MHz |
+| UHF  | 432.800 MHz | 432.990 MHz |
+
+### IARU Bakensystem
+
+- International Amateur Radio Union (IARU)
+- weltweites Bakensystem im KW Bereich
+- umfasst 18 Stationen
+- Aussendung in Intervallen von 3 Minuten
+- auf den 5 Frequenzen: 14100 kHz, 18110 kHz, 21150 kHz, 24930 kHz und 28200 kHz
+- jede Sendung beginnt mit dem Rufzeichen, gefolgt von vier Dauerstrichen
+- die Sendeleistung wird im Sekundentakt reduziert, von 100 Watt auf 10 Watt auf 1 Watt und auf 0.1 Watt
+- man kann seine Antenne normalerweise nicht schnell genug drehen, um alle Aussendungen zu empfangen
+- daher konzentriert man sich auf ein bestimmtes Land und wartet die entsprechende Aussendung ab
+
+| Rufzeichen | 14100 kHz | 18110 kHz | 21150 kHz | 24930 kHz | 28200 kHz |
+| ---------- | --------- | --------- | --------- | --------- | --------- |
+| **4U1UN**  | 0:00      | 0:10      | 0:20      | 0:30      | 0:40      |
+| **VE8AT**  | 0:10      | 0:20      | 0:30      | 0:40      | 0:50      |
+| **W6WX**   | 0:20      | 0:30      | 0:40      | 0:50      | 1:00      |
+| **KH6W0**  | 0:30      | 0:40      | 0:50      | 1:00      | 1:10      |
+| **ZL6B**   | 0:40      | 0:50      | 1:00      | 1:10      | 1:20      |
+| **VK6RBP** | 0:50      | 1:00      | 1:10      | 1:20      | 1:30      |
+| **JA21GY** | 1:00      | 1:10      | 1:20      | 1:30      | 1:40      |
+| **RR9O**   | 1:10      | 1:20      | 1:30      | 1:40      | 1:50      |
+| **VR2B**   | 1:20      | 1:30      | 1:40      | 1:50      | 2:00      |
+| **4S7B**   | 1:30      | 1:40      | 1:50      | 2:00      | 2:10      |
+| **ZS6DN**  | 1:40      | 1:50      | 2:00      | 2:10      | 2:20      |
+| **5Z4B**   | 1:50      | 2:00      | 2:10      | 2:20      | 2:30      |
+| **4X6TU**  | 2:00      | 2:10      | 2:20      | 2:30      | 2:40      |
+| **OH2B**   | 2:10      | 2:20      | 2:30      | 2:40      | 2:50      |
+| **CS3B**   | 2:20      | 2:30      | 2:40      | 2:50      | 0:00      |
+| **LU4AA**  | 2:30      | 2:40      | 2:50      | 0:00      | 0:10      |
+| **OA4B**   | 2:40      | 2:50      | 0:00      | 0:10      | 0:20      |
+| **YV5B**   | 2:50      | 0:00      | 0:10      | 0:20      | 0:30      |
