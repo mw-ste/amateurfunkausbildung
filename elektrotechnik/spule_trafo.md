@@ -65,3 +65,22 @@
   - in Kammern unterteilte Spulenkörper
 
 # Transformator
+
+```
+        o--------|   |--------o
+    |             ) (            |
+    |             ) (            |
+U_1 |   N_1       ) (      N_2   | U_2
+    |             ) (            |
+    V             ) (            V
+        o--------|   |--------o
+
+      Primärseite     Sekundärseite
+```
+
+* getrennte Spulen die über das gleiche magnetische Feld verbunden sind
+* Verhältnisse der **Wechselspannungen** entsprechen denen der Windungen
+* man spricht von Primärseite und Sekundärseite
+
+* Übersetzungsverhältnis `ü`
+* $ü = \frac{N_1}{N_2} = \frac{U_1}{U_2}$
