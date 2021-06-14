@@ -6,6 +6,8 @@
 - **Einheit**: Henry $1H = 1 \frac{Vs}{A}$
 
 - fließt Strom durch eine Spule, so kann sie Energie in einem magnetischen Feld speichern
+- jeder stromdurchflossene Leiter, unabhängig von seiner Form, erzeugt ein magnetisches Feld
+- um die Auswirkungen des magnetischen Feldes einer Spule zu reduzieren, kann diese in einem metallischen Abschirmbecher untergebracht werden
 
 - $L = \frac{\mu \cdot A \cdot N^2}{l}$
 - $\mu = \mu_0 \cdot \mu_r$
@@ -52,7 +54,23 @@
 
 - steigt mit zunehmender Frequenz und Induktivität
 - außerdem ergibt sich ein Phasenversatz zwischen Strom und Spannung
-- an der Spule eilt der Strom um eine viertel Periode der Spannung **nach**
+- an der Spule eilt der Strom um eine viertel Periode ($\frac{\pi}{2}$, 90°) der Spannung **nach**
+- "An Induktivit*äten*, der Strom tut sich versp*äten*"
+
+## Verlustbehafteter Widerstand
+
+```
+                    R_S
+                   _____
+ o----)()()()(----|_____|-----o
+       ---->       ---->
+        U_L         U_R
+```
+
+- Verlustwärme durch Drahtwiderstand $R_S$ der Wicklungen
+- Gütefaktor $Q = \frac{X_L}{R_S}$
+- Verlustfaktor $tan \left( \delta \right)$
+- $Q =  \frac{1}{tan \left( \delta \right)}$
 
 ## Bauformen
 
@@ -69,6 +87,14 @@
   - Kreuzwickelspule
   - in Kammern unterteilte Spulenkörper
 
+## Anwendungen
+
+- Hochfrequenzentstörung durch Ferrit-Ringekerne
+- Antennenanpassung durch Symmetrierglied
+- Antennenanpassung durch L-C-Schaltungen
+- Unterdrückung parasitärer Schwingungen dirch Breitband-Anodendrossel
+- Reduzierung der Induktivität bei Messwiderständen für hohe Leistungen
+
 # Transformator
 
 ```
@@ -83,9 +109,9 @@ U_1 |   N_1       ) (      N_2   | U_2
       Primärseite     Sekundärseite
 ```
 
-* getrennte Spulen die über das gleiche magnetische Feld verbunden sind
-* Verhältnisse der **Wechselspannungen** entsprechen denen der Windungen
-* man spricht von Primärseite und Sekundärseite
+- getrennte Spulen die über das gleiche magnetische Feld verbunden sind
+- Verhältnisse der **Wechselspannungen** entsprechen denen der Windungen
+- man spricht von Primärseite und Sekundärseite
 
-* Übersetzungsverhältnis `ü`
-* $ü = \frac{N_1}{N_2} = \frac{U_1}{U_2}$
+- Übersetzungsverhältnis `ü`
+- $ü = \frac{N_1}{N_2} = \frac{U_1}{U_2}$
