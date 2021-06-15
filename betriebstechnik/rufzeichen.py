@@ -249,71 +249,220 @@ re_KS_E_gast = [r"^DA6[A-Z]$"]
 assert any_match("DA6A", re_KS_E_gast)
 assert any_match("DA6Z", re_KS_E_gast)
 
-
 # In[]
-"""   
+"""
 KS_E_legacy
     DOØAA-DOØZZZ
-    
+"""
+re_KS_E_legacy = [r"^DO0[A-Z]{2,3}$"]
+
+assert any_match("DO0AA",  re_KS_E_legacy)
+assert any_match("DO0ZZZ", re_KS_E_legacy)
+
+# In[]
+"""
 KS_E_ext
     DP2A-DP2Z
     DP2AA-DP2ZZZ
-    
+"""
+re_KS_E_ext = [r"^DP2[A-Z]{1,3}$"]
+
+assert any_match("DP2A",   re_KS_E_ext)
+assert any_match("DP2Z",   re_KS_E_ext)
+assert any_match("DP2AA",  re_KS_E_ext)
+assert any_match("DP2ZZZ", re_KS_E_ext)
+
+# In[]
+"""
 KS_SZ_A
     DA5A-DA5Z
-    
+"""
+re_KS_SZ_A = [r"^DA5[A-Z]$"]
+
+assert any_match("DA5A", re_KS_SZ_A)
+assert any_match("DA5Z", re_KS_SZ_A)
+
+# In[]
+"""
 KS_SZ_E
     DA4A-DA4Z
-    
+"""
+re_KS_SZ_E = [r"^DA4[A-Z]$"]
+
+assert any_match("DA4A", re_KS_SZ_E)
+assert any_match("DA4Z", re_KS_SZ_E)
+
+# In[]
+"""
 PZ_A
     DB1AA-DB9ZZZ
-    DB1AA-DB9ZZZ
-    DDØAA-DD9ZZZ
     DF1AA-DF9ZZZ
-    DGØAA-DG9ZZZ
-    DHØAA-DH9ZZZ
-    DJØAA-DJ9ZZZ
     DK1AA-DK9ZZZ
     DL1AA-DL9ZZZ
     DM1AA-DM9ZZZ
     
+    DDØAA-DD9ZZZ
+    DGØAA-DG9ZZZ
+    DHØAA-DH9ZZZ
+    DJØAA-DJ9ZZZ    
+"""
+re_PZ_A = [r"^D([BFKLM][1-9]|[DGHJ][0-9])[A-Z]{2,3}$"]
+
+assert any_match("DB1AA",  re_PZ_A)
+assert any_match("DB9ZZZ", re_PZ_A)
+assert any_match("DD0AA",  re_PZ_A)
+assert any_match("DD9ZZZ", re_PZ_A)
+assert any_match("DF1AA",  re_PZ_A)
+assert any_match("DF9ZZZ", re_PZ_A)
+assert any_match("DG0AA",  re_PZ_A)
+assert any_match("DG9ZZZ", re_PZ_A)
+assert any_match("DH0AA",  re_PZ_A)
+assert any_match("DH9ZZZ", re_PZ_A)
+assert any_match("DJ0AA",  re_PZ_A)
+assert any_match("DJ9ZZZ", re_PZ_A)
+assert any_match("DK1AA",  re_PZ_A)
+assert any_match("DK9ZZZ", re_PZ_A)
+assert any_match("DL1AA",  re_PZ_A)
+assert any_match("DL9ZZZ", re_PZ_A)
+assert any_match("DM1AA",  re_PZ_A)
+assert any_match("DM9ZZZ", re_PZ_A)
+
+# In[]
+"""
 PZ_A_gast
     DA1AA-DA1ZZZ
-    
+"""
+re_PZ_A_gast = [r"^DA1[A-Z]{2,3}$"]
+
+assert any_match("DA1AA",  re_PZ_A_gast)
+assert any_match("DA1ZZZ", re_PZ_A_gast)
+
+# In[]
+"""
 PZ_A_legacy
     DA2AA-DA2ZZZ
-    
-PZ_A_legacy_gast    
+"""
+re_PZ_A_legacy = [r"^DA2[A-Z]{2,3}$"]
 
+assert any_match("DA2AA",  re_PZ_A_legacy)
+assert any_match("DA2ZZZ", re_PZ_A_legacy)
+
+# In[]
+"""
 PZ_E
     DO1AA-DO9ZZZ
+"""
+re_PZ_E = [r"^DO[1-9][A-Z]{2,3}$"]
 
+assert any_match("DO1AA",  re_PZ_E)
+assert any_match("DO9ZZZ", re_PZ_E)
+
+# In[]
+"""
 PZ_E_gast
     DA6AA-DA6ZZZ
-    
+"""
+re_PZ_E_gast = [r"^DA6[A-Z]{2,3}$"]
+
+assert any_match("DA6AA",  re_PZ_E_gast)
+assert any_match("DA6ZZZ", re_PZ_E_gast)
+
+# In[]
+"""
 RL_A
     DA1AA-DA1ZZZ
     DA2AA-DA2ZZZ
+    
     DBØAA-DBØZZZ
     DMØAA-DMØZZZ
     DPØAA-DP1ZZZ
-    
+"""
+re_RL_A = [r"^D(A[1-2]|[BMP]0|P1)[A-Z]{2,3}$"]
+
+assert any_match("DA1AA",  re_RL_A)
+assert any_match("DA1ZZZ", re_RL_A)
+assert any_match("DA2AA",  re_RL_A)
+assert any_match("DA2ZZZ", re_RL_A)
+assert any_match("DB0AA",  re_RL_A)
+assert any_match("DB0ZZZ", re_RL_A)
+assert any_match("DM0AA",  re_RL_A)
+assert any_match("DM0ZZZ", re_RL_A)
+assert any_match("DP0AA",  re_RL_A)
+assert any_match("DP1ZZZ", re_RL_A)
+
+# In[]
+"""
 RL_A_legacy
     DFØAA-DFØZZZ
     DKØAA-DKØZZZ
     DLØAA-DLØZZZ
-    
+"""
+re_RL_A_legacy = [r"^D[FKL]0[A-Z]{2,3}$"]
+
+assert any_match("DF0AA",  re_RL_A_legacy)
+assert any_match("DF0ZZZ", re_RL_A_legacy)
+assert any_match("DK0AA",  re_RL_A_legacy)
+assert any_match("DK0ZZZ", re_RL_A_legacy)
+assert any_match("DL0AA",  re_RL_A_legacy)
+assert any_match("DL0ZZZ", re_RL_A_legacy)
+
+# In[]
+"""
 RL_E
     DA6AA-DA6ZZZ
     DOØAA-DOØZZZ
     DP2AA-DP2ZZZ
-    
+"""
+re_RL_E = [r"^D(A6|O0|P2)[A-Z]{2,3}$"]
+
+assert any_match("DA6AA",  re_RL_E)
+assert any_match("DA6ZZZ", re_RL_E)
+assert any_match("DO0AA",  re_RL_E)
+assert any_match("DO0ZZZ", re_RL_E)
+assert any_match("DP2AA",  re_RL_E)
+assert any_match("DP2ZZZ", re_RL_E)
+
+# In[]
+"""
 SZ_A
     DA5AA-DA5ZZZ
     DPØAA-DP1ZZZ
+"""
+re_SZ_A = [r"^D(A5|P[01])[A-Z]{2,3}$"]
 
+assert any_match("DA5AA",  re_SZ_A)
+assert any_match("DA5ZZZ", re_SZ_A)
+assert any_match("DP0AA",  re_SZ_A)
+assert any_match("DP1ZZZ", re_SZ_A)
+
+# In[]
+"""
 SZ_E
     DA4AA-DA4ZZZ
     DP2AA-DP2ZZZ
-
 """
+re_SZ_E = [r"^D(A4|P2)[A-Z]{2,3}$"]
+
+assert any_match("DA4AA",  re_SZ_E)
+assert any_match("DA4ZZZ", re_SZ_E)
+assert any_match("DP2AA",  re_SZ_E)
+assert any_match("DP2ZZZ", re_SZ_E)
+
+# In[]
+"""
+PZ_A_legacy_gast
+    DA4AA-DA4ZZZ
+"""
+re_PZ_A_legacy_gast = [r"^DA4[A-Z]{2,3}$"]
+
+assert any_match("DA4AA",  re_PZ_A_legacy_gast)
+assert any_match("DA4ZZZ", re_PZ_A_legacy_gast)
+
+# In[]
+variables = globals()
+res = {r : variables[r] for r in variables if r.startswith("re_")}
+
+call_sign = input("Call sign: ")
+for r in res:
+    if any_match(call_sign, res[r]):
+        print(r)
