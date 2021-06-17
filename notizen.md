@@ -76,3 +76,13 @@ Radio Regulations (VO Funk): bezieht sich meistens auf internationale Verbindung
 - Ergo: $log_{10} \left( x \right)$ ergibt den Faktor `x`in `Bel`
 - auch für nicht durch 10 teilbare Werte von `x`
 - dann ergeben sich nicht-ganzzahlige Werte in `Bel`
+
+## 03.06.2021
+
+Feiertag
+
+## 10.06.2021
+
+Einsatz
+
+## 17.06.2021
