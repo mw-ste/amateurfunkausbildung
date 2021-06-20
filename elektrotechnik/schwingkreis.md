@@ -157,6 +157,12 @@ o---------------------+--------o
 - außerdem wird das Signal über den Kondensator kurzgeschlossen
 - bei der **Grenzfrequenz** $f_g$ beträgt die Ausgangsspannung 70% der Eingangsspannung
 
+- **T-Schaltung**: Spule in Serie, Kondensator gegen Masse, Spule in Serie
+- **Pi-Schaltung**: Kondensator gegen Masse, Spule in Serie, Kondensator gegen Masse
+
+- Netzspannungsentstörung mit Tiefpass in Pi-Schaltung
+- dann oft symmetrischer Aufbau
+
 ## Hochpass
 
 ```
@@ -191,3 +197,30 @@ o-----------------------------+-----o
 - bei niedrigen Frequenzen steigt der Widerstand des Kondensators
 - außerdem wird das Signal über die Spule kurzgeschlossen
 - bei der **Grenzfrequenz** $f_g$ beträgt die Ausgangsspannung 70% der Eingangsspannung
+
+- **T-Schaltung**: Kondensator in Serie, Spule gegen Masse, Kondensator in Serie
+- **Pi-Schaltung**: Spule gegen Masse, Kondensator in Serie, Spule gegen Masse
+
+## Bandpass in Pi-Schaltung
+
+- Schwingkreise im Pi-Schaltung
+- steilere Flanken
+- Parallelschwingkreis gegen Masse, Serienschwingkreis im Signalpfad, Parallelschwingkreis gegen Masse
+
+## RC-Hochpass und RC-Tiefpass
+
+- Widerstand statt Spule
+- gleiche Funktion, geringere Flankensteilheit
+- Grenzfrequenz $f_g$: 0.7 U bzw. -3 dB
+- $f_g = f_0 = \frac{1}{2 \cdot \pi \cdot R \cdot C}$
+- **Tiefpass**: Widerstand im Signalpfad, Kondensator gegen Masse
+- **Hochpass**: Kondensator im Signalpfad, Widerstand gegen Masse
+
+# Resonanztransformation
+
+- Schwingkreis zu Transformationszwecken
+- **Beispiel**:
+  - Tiefpass in Pi-Schaltung
+  - Transformation zwischen Eingangs- und Ausgangswiderstand
+  - gesteuert durch das Verhältnis der Kapazitäten
+  - $\frac{C_2}{C_1} = \sqrt{\frac{R_1}{R_2}}$
