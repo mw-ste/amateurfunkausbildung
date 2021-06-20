@@ -60,3 +60,26 @@
 | QTF      | Meine Antenne strahlt in Richtung ... Grad | In welche Richtung strahlt Ihre Antenne?     |           | **t**rue **f**ix             |
 | **QTH**  | Mein Standort ist ... Breite und ... Länge | Wie ist Ihr Standort?                        |           | **t**rue **h**ome            |
 | QTR      | Genaue Uhrzeit ist ...                     | Wie ist die genaue Uhrzeit?                  |           | **t**ime **r**ecorded        |
+
+## QRA
+
+- nicht das eigene Rufzeichen oder die der eigene Namen
+- eher das eigene Zuhause oder die Familie
+- im Seefunk der Schiffsname
+
+## Q-Gruppen mit Angaben
+
+- **QRX 1500 UTC**
+  - Station macht bis 15:00 UTC Pause
+  - "UTC" ist optional aber hilfreich
+- **QRX 5 min**
+  - Station macht für 5 Minuten Pause
+- **QTR 1225 UTC**
+  - es ist 12:25 UTC
+  - "UTC" ist optional aber hilfreich
+- **QTF 240**
+  - meine Antenne strahlt in Richtung 240 Grad
+- **QSP DJ4UF**
+  - gib diese Meldung bitte weiter an DJ4UF
+- **QTH**
+  - Heimatort
