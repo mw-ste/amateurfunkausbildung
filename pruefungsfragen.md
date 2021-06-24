@@ -8,6 +8,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1129/ | 2021-05-27 | Lektion Widerstand und Grundschaltungen B |
 | https://afutest.ewers.net/tests/2021-EA/1127/ | 2021-06-10 | Kondensator                               |
 | https://afutest.ewers.net/tests/2021-EA/1128/ | 2021-06-17 | Spule, Trafo, Misc                        |
+| https://afutest.ewers.net/tests/2021-EA/1086/ | 2021-06-24 | Schwingkreis und Filter|
 
 ### Fortschritt A
 
@@ -18,6 +19,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1154/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1155/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1156/ | 2021-06-17 |
+| https://afutest.ewers.net/tests/2021-EA/1157/ | 2021-06-24 |
 
 # Technik E
 
@@ -28,6 +30,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1067/ | 2021-05-20 | Spannung, Strom, Wechselspannung                |
 | https://afutest.ewers.net/tests/2021-EA/1068/ | 2021-06-10 | Ohmsches Gesetz, Leistung, Arbeit, SI-Einheiten |
 | https://afutest.ewers.net/tests/2021-EA/1069/ | 2021-06-17 | Widerstand und Grundschaltungen                 |
+| https://afutest.ewers.net/tests/2021-EA/1070/ | 2021-06-24 | Kondensator und Zehnerpotenzen                 |
 
 ### Fortschritt E
 
@@ -37,6 +40,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1173/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1174/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1175/ | 2021-06-17 |
+| https://afutest.ewers.net/tests/2021-EA/1176/ | 2021-06-24 |
 
 # Kenntnisse von Vorschriften
 
@@ -50,6 +54,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1220/ | 2021-06-10 | Amateurfunkstellen A (Vorschriften)        |
 | https://afutest.ewers.net/tests/2021-EA/1222/ | 2021-06-17 | Amateurfunkstellen B (Betrieb)             |
 | https://afutest.ewers.net/tests/2021-EA/1224/ | 2021-06-17 | Amateurfunkstellen B (Vorschriften)        |
+| https://afutest.ewers.net/tests/2021-EA/1105/ | 2021-06-24 | Q-Schlüssel        |
 
 ### Fortschritt (Betrieb)
 
@@ -58,6 +63,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1190/ | 2021-05-20 |
 | https://afutest.ewers.net/tests/2021-EA/1191/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1219/ | 2021-06-10 |
+| https://afutest.ewers.net/tests/2021-EA/1195/ | 2021-06-24 |
 
 ### Fortschritt (Vorschriften)
 
@@ -65,3 +71,4 @@
 | --------------------------------------------- | ---------- |
 | https://afutest.ewers.net/tests/2021-EA/1192/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1221/ | 2021-06-10 |
+| https://afutest.ewers.net/tests/2021-EA/1196/ | 2021-06-24 |
