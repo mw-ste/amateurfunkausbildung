@@ -8,7 +8,8 @@
 | https://afutest.ewers.net/tests/2021-EA/1129/ | 2021-05-27 | Lektion Widerstand und Grundschaltungen B |
 | https://afutest.ewers.net/tests/2021-EA/1127/ | 2021-06-10 | Kondensator                               |
 | https://afutest.ewers.net/tests/2021-EA/1128/ | 2021-06-17 | Spule, Trafo, Misc                        |
-| https://afutest.ewers.net/tests/2021-EA/1086/ | 2021-06-24 | Schwingkreis und Filter|
+| https://afutest.ewers.net/tests/2021-EA/1086/ | 2021-06-24 | Schwingkreis und Filter                   |
+| https://afutest.ewers.net/tests/2021-EA/1087/ | 2021-07-01 | Diode und Anwendungen                     |
 
 ### Fortschritt A
 
@@ -20,6 +21,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1155/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1156/ | 2021-06-17 |
 | https://afutest.ewers.net/tests/2021-EA/1157/ | 2021-06-24 |
+| https://afutest.ewers.net/tests/2021-EA/1158/ | 2021-07-01 |
 
 # Technik E
 
@@ -30,7 +32,8 @@
 | https://afutest.ewers.net/tests/2021-EA/1067/ | 2021-05-20 | Spannung, Strom, Wechselspannung                |
 | https://afutest.ewers.net/tests/2021-EA/1068/ | 2021-06-10 | Ohmsches Gesetz, Leistung, Arbeit, SI-Einheiten |
 | https://afutest.ewers.net/tests/2021-EA/1069/ | 2021-06-17 | Widerstand und Grundschaltungen                 |
-| https://afutest.ewers.net/tests/2021-EA/1070/ | 2021-06-24 | Kondensator und Zehnerpotenzen                 |
+| https://afutest.ewers.net/tests/2021-EA/1070/ | 2021-06-24 | Kondensator und Zehnerpotenzen                  |
+| https://afutest.ewers.net/tests/2021-EA/1071/ | 2021-07-01 | Spule und Transformator                         |
 
 ### Fortschritt E
 
@@ -41,6 +44,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1174/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1175/ | 2021-06-17 |
 | https://afutest.ewers.net/tests/2021-EA/1176/ | 2021-06-24 |
+| https://afutest.ewers.net/tests/2021-EA/1177/ | 2021-07-01 |
 
 # Kenntnisse von Vorschriften
 
@@ -54,7 +58,8 @@
 | https://afutest.ewers.net/tests/2021-EA/1220/ | 2021-06-10 | Amateurfunkstellen A (Vorschriften)        |
 | https://afutest.ewers.net/tests/2021-EA/1222/ | 2021-06-17 | Amateurfunkstellen B (Betrieb)             |
 | https://afutest.ewers.net/tests/2021-EA/1224/ | 2021-06-17 | Amateurfunkstellen B (Vorschriften)        |
-| https://afutest.ewers.net/tests/2021-EA/1105/ | 2021-06-24 | Q-Schlüssel        |
+| https://afutest.ewers.net/tests/2021-EA/1105/ | 2021-06-24 | Q-Schlüssel                                |
+| https://afutest.ewers.net/tests/2021-EA/1107/ | 2021-07-01 | Gesetze, Vorschriften und Regelungen       |
 
 ### Fortschritt (Betrieb)
 
@@ -64,6 +69,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1191/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1219/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1195/ | 2021-06-24 |
+| https://afutest.ewers.net/tests/2021-EA/1199/ | 2021-07-01 |
 
 ### Fortschritt (Vorschriften)
 
@@ -72,3 +78,4 @@
 | https://afutest.ewers.net/tests/2021-EA/1192/ | 2021-05-27 |
 | https://afutest.ewers.net/tests/2021-EA/1221/ | 2021-06-10 |
 | https://afutest.ewers.net/tests/2021-EA/1196/ | 2021-06-24 |
+| https://afutest.ewers.net/tests/2021-EA/1200/ | 2021-07-01 |
