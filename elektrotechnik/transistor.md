@@ -1,0 +1,7 @@
+# Transistor
+
+TODO
+
+## Bipolartransistor
+
+## Feldeffekttransistor
