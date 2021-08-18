@@ -13,6 +13,9 @@
 | https://afutest.ewers.net/tests/2021-EA/1088/ | 2021-07-08 | Transistor und Verstärker                 |
 | https://afutest.ewers.net/tests/2021-EA/1090/ | 2021-07-15 | Elektromagnetisches Feld                  |
 | https://afutest.ewers.net/tests/2021-EA/1092/ | 2021-07-22 | HF-Leitungen und Antennengrundlagen       |
+| https://afutest.ewers.net/tests/2021-EA/1262/ | 2021-07-29 | Speiseleitungen                           |
+| https://afutest.ewers.net/tests/2021-EA/1091/ | 2021-08-05 | Antennentechnik                           |
+| https://afutest.ewers.net/tests/2021-EA/1255/ | 2021-08-12 | HF-Verstärker                             |
 
 ### Fortschritt A
 
@@ -28,6 +31,9 @@
 | https://afutest.ewers.net/tests/2021-EA/1159/ | 2021-07-08 |
 | https://afutest.ewers.net/tests/2021-EA/1160/ | 2021-07-15 |
 | https://afutest.ewers.net/tests/2021-EA/1162/ | 2021-07-22 |
+| https://afutest.ewers.net/tests/2021-EA/1263/ | 2021-07-29 |
+| https://afutest.ewers.net/tests/2021-EA/1161/ | 2021-08-05 |
+| https://afutest.ewers.net/tests/2021-EA/1256/ | 2021-08-12 |
 
 # Technik E
 
@@ -43,6 +49,9 @@
 | https://afutest.ewers.net/tests/2021-EA/1072/ | 2021-07-08 | Schwingkreis und Filter                         |
 | https://afutest.ewers.net/tests/2021-EA/1076/ | 2021-07-15 | Halbleiter und Diode                            |
 | https://afutest.ewers.net/tests/2021-EA/1077/ | 2021-07-22 | Transistor und Verstärker                       |
+| https://afutest.ewers.net/tests/2021-EA/1073/ | 2021-07-29 | Elektromagnetisches Feld                        |
+| https://afutest.ewers.net/tests/2021-EA/1074/ | 2021-08-05 | Dezibel, Dämpfung, Kabel                        |
+| https://afutest.ewers.net/tests/2021-EA/1075/ | 2021-08-12 | Antennentechnik                                 |
 
 ### Fortschritt E
 
@@ -57,6 +66,9 @@
 | https://afutest.ewers.net/tests/2021-EA/1178/ | 2021-07-08 |
 | https://afutest.ewers.net/tests/2021-EA/1179/ | 2021-07-15 |
 | https://afutest.ewers.net/tests/2021-EA/1180/ | 2021-07-22 |
+| https://afutest.ewers.net/tests/2021-EA/1181/ | 2021-07-29 |
+| https://afutest.ewers.net/tests/2021-EA/1182/ | 2021-08-05 |
+| https://afutest.ewers.net/tests/2021-EA/1183/ | 2021-08-12 |
 
 # Kenntnisse von Vorschriften
 
@@ -76,6 +88,9 @@
 | https://afutest.ewers.net/tests/2021-EA/1110/ | 2021-07-15 | Funkbetrieb im Ausland                     |
 | https://afutest.ewers.net/tests/2021-EA/1108/ | 2021-07-22 | Rufzeichen und Landeskenner (Betrieb)      |
 | https://afutest.ewers.net/tests/2021-EA/1109/ | 2021-07-22 | Rufzeichen und Landeskenner (Vorschriften) |
+| https://afutest.ewers.net/tests/2021-EA/1266/ | 2021-07-29 | Betriebsabwicklung auf KW (Betrieb)        |
+| https://afutest.ewers.net/tests/2021-EA/1267/ | 2021-07-29 | Betriebsabwicklung auf KW (Vorschriften)   |
+| https://afutest.ewers.net/tests/2021-EA/1115/ | 2021-08-05 | Betriebsabwicklung auf VHF/UHF             |
 
 ### Fortschritt (Betrieb)
 
@@ -89,6 +104,8 @@
 | https://afutest.ewers.net/tests/2021-EA/1197/ | 2021-07-08 |
 | https://afutest.ewers.net/tests/2021-EA/1203/ | 2021-07-15 |
 | https://afutest.ewers.net/tests/2021-EA/1201/ | 2021-07-22 |
+| https://afutest.ewers.net/tests/2021-EA/1264/ | 2021-07-29 |
+| https://afutest.ewers.net/tests/2021-EA/1207/ | 2021-08-05 |
 
 ### Fortschritt (Vorschriften)
 
@@ -101,3 +118,5 @@
 | https://afutest.ewers.net/tests/2021-EA/1198/ | 2021-07-08 |
 | https://afutest.ewers.net/tests/2021-EA/1204/ | 2021-07-15 |
 | https://afutest.ewers.net/tests/2021-EA/1202/ | 2021-07-22 |
+| https://afutest.ewers.net/tests/2021-EA/1265/ | 2021-07-29 |
+| https://afutest.ewers.net/tests/2021-EA/1208/ | 2021-08-05 |
