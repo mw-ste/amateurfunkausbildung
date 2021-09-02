@@ -88,3 +88,75 @@ Einsatz
 ## 17.06.2021
 
 ## 24.06.2021
+
+## 26.08.2021
+
+### Einige Antennen
+* Groundplane 2m/70cm
+  * $30 \Omega$ wenn horizontal
+  * $50 \Omega$ wenn abgewinkelt
+
+* Magnetic Loop
+  * Umfang $< \lambda$, z.B. $\frac{\lambda}{10}$
+  * hohe Ströme &rarr; starkes Magnetfeld, dicke Leiter (Rohr, Felge)
+  * Parallelschwingkreis &rarr; Loop an einer Stelle angeschnitten und mit Kondesator geschlossen
+
+* $\lambda$-Vertikalantenne
+  * sendet nicht horizontal, sondern schräg nach oben
+
+* $\frac{5}{8}\lambda$-Vertikalantenne
+  * optimale Vertikalantenne
+  * maximale Aussendung in Horizontale
+  * kein reiner Widerstand
+  * benötigt Antennentuner oder Anpassung
+
+* Faltdipol
+  * halber Strom für gleiche Leistung
+  * vierfacher Widerstand &rarr; $240 \lambda$
+
+* Yagi-Antenne
+  * Richtantenne
+  * hoher Gewinn in Vorzugsrichtung
+  * $0.44 \cdot \lambda$ langer Strahler
+  * $\lambda / 2$ Reflektor um $\lambda / 4$ hinter Strahler
+  * $0.43 \cdot \lambda$ langer Direktor um $0.13 \cdot \lambda$ vor Strahler
+  * Beam = Yagi für Kurzwelle (gibt es laut BNetzA nicht?)
+
+* Langdraht-Antenne
+  * Länge $> \lambda$
+  * idR endespeißte Antennen
+  * "zickig im Vergleich zu mittelgespeißter Antenne"
+
+* Loop-Antenne
+  * Ganzwellenschleife
+  * Dreieck, Viereck,...
+
+* Halbwellendipol auf 80m-Band
+  * 40m Länge
+  * nutzbar für 40m-Band, aber mit Problemen
+    * kleeblattförmiges Richtdiagram
+    * hohe Speißeimpedanz ($2k\Omega$)
+  * Lösungen:
+    * W3DZZ-Antenne
+      * Parallelschwingkreise die außerhalb des 80m-Band die Antenne verkürzen
+    * Windom-Antenne
+      * unsymmetrisch
+      * Einspeißung bei $\frac{1}{3}$/$\frac{2}{3}$ der Antennenlänge
+
+* UKW-Antennen
+  * 1/4 Lambda
+  * 1/2 Lambda mit Fuchskreis
+  * 5/8 Lambda
+  * Sperrtopfantenne
+
+  * Horizontale Yagi
+  * Vertikale Yagi
+  * Kreuz-Yagi
+  * X-Yagi
+
+* G5RV-Antenne
+
+
+## 02.09.2021
+
+* Verstärker ohne Schwingkreis: Breitband-Verstärker
