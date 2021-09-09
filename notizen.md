@@ -160,3 +160,6 @@ Einsatz
 ## 02.09.2021
 
 * Verstärker ohne Schwingkreis: Breitband-Verstärker
+
+## 09.09.2021
+
