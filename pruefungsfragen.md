@@ -1,21 +1,28 @@
 # Technik A
 
-| Link                                          | Datum      | Thema                                     |
-| --------------------------------------------- | ---------- | ----------------------------------------- |
-| https://afutest.ewers.net/tests/2021-EA/1001/ | 2021-04-29 | Kurzwellenausbreitung                     |
-| https://afutest.ewers.net/tests/2021-EA/1030/ | 2021-05-06 | Wellenlänge und UKW-Ausbreitung           |
-| https://afutest.ewers.net/tests/2021-EA/1121/ | 2021-05-20 | Lektion Widerstand und Grundschaltungen A |
-| https://afutest.ewers.net/tests/2021-EA/1129/ | 2021-05-27 | Lektion Widerstand und Grundschaltungen B |
-| https://afutest.ewers.net/tests/2021-EA/1127/ | 2021-06-10 | Kondensator                               |
-| https://afutest.ewers.net/tests/2021-EA/1128/ | 2021-06-17 | Spule, Trafo, Misc                        |
-| https://afutest.ewers.net/tests/2021-EA/1086/ | 2021-06-24 | Schwingkreis und Filter                   |
-| https://afutest.ewers.net/tests/2021-EA/1087/ | 2021-07-01 | Diode und Anwendungen                     |
-| https://afutest.ewers.net/tests/2021-EA/1088/ | 2021-07-08 | Transistor und Verstärker                 |
-| https://afutest.ewers.net/tests/2021-EA/1090/ | 2021-07-15 | Elektromagnetisches Feld                  |
-| https://afutest.ewers.net/tests/2021-EA/1092/ | 2021-07-22 | HF-Leitungen und Antennengrundlagen       |
-| https://afutest.ewers.net/tests/2021-EA/1262/ | 2021-07-29 | Speiseleitungen                           |
-| https://afutest.ewers.net/tests/2021-EA/1091/ | 2021-08-05 | Antennentechnik                           |
-| https://afutest.ewers.net/tests/2021-EA/1255/ | 2021-08-12 | HF-Verstärker                             |
+| Link                                          | Datum      | Thema                                              |
+| --------------------------------------------- | ---------- | -------------------------------------------------- |
+| https://afutest.ewers.net/tests/2021-EA/1001/ | 2021-04-29 | Kurzwellenausbreitung                              |
+| https://afutest.ewers.net/tests/2021-EA/1030/ | 2021-05-06 | Wellenlänge und UKW-Ausbreitung                    |
+| https://afutest.ewers.net/tests/2021-EA/1121/ | 2021-05-20 | Lektion Widerstand und Grundschaltungen A          |
+| https://afutest.ewers.net/tests/2021-EA/1129/ | 2021-05-27 | Lektion Widerstand und Grundschaltungen B          |
+| https://afutest.ewers.net/tests/2021-EA/1127/ | 2021-06-10 | Kondensator                                        |
+| https://afutest.ewers.net/tests/2021-EA/1128/ | 2021-06-17 | Spule, Trafo, Misc                                 |
+| https://afutest.ewers.net/tests/2021-EA/1086/ | 2021-06-24 | Schwingkreis und Filter                            |
+| https://afutest.ewers.net/tests/2021-EA/1087/ | 2021-07-01 | Diode und Anwendungen                              |
+| https://afutest.ewers.net/tests/2021-EA/1088/ | 2021-07-08 | Transistor und Verstärker                          |
+| https://afutest.ewers.net/tests/2021-EA/1090/ | 2021-07-15 | Elektromagnetisches Feld                           |
+| https://afutest.ewers.net/tests/2021-EA/1092/ | 2021-07-22 | HF-Leitungen und Antennengrundlagen                |
+| https://afutest.ewers.net/tests/2021-EA/1262/ | 2021-07-29 | Speiseleitungen                                    |
+| https://afutest.ewers.net/tests/2021-EA/1091/ | 2021-08-05 | Antennentechnik                                    |
+| https://afutest.ewers.net/tests/2021-EA/1255/ | 2021-08-12 | HF-Verstärker                                      |
+| https://afutest.ewers.net/tests/2021-EA/1257/ | 2021-09-09 | Oszillator                                         |
+| https://afutest.ewers.net/tests/2021-EA/1093/ | 2021-09-16 | Signale                                            |
+| https://afutest.ewers.net/tests/2021-EA/1259/ | 2021-09-23 | Mischer, Frequenzumsetzung, Superhet               |
+| https://afutest.ewers.net/tests/2021-EA/1276/ | 2021-09-30 | Frequenzaufbereitung, Sender                       |
+| https://afutest.ewers.net/tests/2021-EA/1094/ | 2021-10-07 | De-/Modulation                                     |
+| https://afutest.ewers.net/tests/2021-EA/1148/ | 2021-10-14 | Digitaltechnik, Zahlensysteme, Übertragungstechnik |
+| https://afutest.ewers.net/tests/2021-EA/1273/ | 2021-10-21 | Messtechnik 1                                      |
 
 ### Fortschritt A
 
@@ -34,6 +41,13 @@
 | https://afutest.ewers.net/tests/2021-EA/1263/ | 2021-07-29 |
 | https://afutest.ewers.net/tests/2021-EA/1161/ | 2021-08-05 |
 | https://afutest.ewers.net/tests/2021-EA/1256/ | 2021-08-12 |
+| https://afutest.ewers.net/tests/2021-EA/1258/ | 2021-09-09 |
+| https://afutest.ewers.net/tests/2021-EA/1164/ | 2021-09-16 |
+| https://afutest.ewers.net/tests/2021-EA/1260/ | 2021-09-23 |
+| https://afutest.ewers.net/tests/2021-EA/1261/ | 2021-09-30 |
+| https://afutest.ewers.net/tests/2021-EA/1168/ | 2021-10-07 |
+| https://afutest.ewers.net/tests/2021-EA/1169/ | 2021-10-14 |
+| https://afutest.ewers.net/tests/2021-EA/1274/ | 2021-10-21 |
 
 # Technik E
 
@@ -52,6 +66,12 @@
 | https://afutest.ewers.net/tests/2021-EA/1073/ | 2021-07-29 | Elektromagnetisches Feld                        |
 | https://afutest.ewers.net/tests/2021-EA/1074/ | 2021-08-05 | Dezibel, Dämpfung, Kabel                        |
 | https://afutest.ewers.net/tests/2021-EA/1075/ | 2021-08-12 | Antennentechnik                                 |
+| https://afutest.ewers.net/tests/2021-EA/1078/ | 2021-09-09 | De-/Modulation                                  |
+| https://afutest.ewers.net/tests/2021-EA/1271/ | 2021-09-16 | Antennentechnik 2                               |
+| https://afutest.ewers.net/tests/2021-EA/1078/ | 2021-09-23 | De-/Modulation                                  |
+| https://afutest.ewers.net/tests/2021-EA/1079/ | 2021-10-07 | Betriebsarten                                   |
+| https://afutest.ewers.net/tests/2021-EA/1081/ | 2021-10-14 | Messtechnik                                     |
+| https://afutest.ewers.net/tests/2021-EA/1080/ | 2021-10-21 | Sender- und Empfängertechnik                    |
 
 ### Fortschritt E
 
@@ -69,6 +89,12 @@
 | https://afutest.ewers.net/tests/2021-EA/1181/ | 2021-07-29 |
 | https://afutest.ewers.net/tests/2021-EA/1182/ | 2021-08-05 |
 | https://afutest.ewers.net/tests/2021-EA/1183/ | 2021-08-12 |
+| https://afutest.ewers.net/tests/2021-EA/1184/ | 2021-09-09 |
+| https://afutest.ewers.net/tests/2021-EA/1272/ | 2021-09-16 |
+| https://afutest.ewers.net/tests/2021-EA/1184/ | 2021-09-23 |
+| https://afutest.ewers.net/tests/2021-EA/1185/ | 2021-10-07 |
+| https://afutest.ewers.net/tests/2021-EA/1187/ | 2021-10-14 |
+| https://afutest.ewers.net/tests/2021-EA/1186/ | 2021-10-21 |
 
 # Kenntnisse von Vorschriften
 
@@ -91,6 +117,13 @@
 | https://afutest.ewers.net/tests/2021-EA/1266/ | 2021-07-29 | Betriebsabwicklung auf KW (Betrieb)        |
 | https://afutest.ewers.net/tests/2021-EA/1267/ | 2021-07-29 | Betriebsabwicklung auf KW (Vorschriften)   |
 | https://afutest.ewers.net/tests/2021-EA/1115/ | 2021-08-05 | Betriebsabwicklung auf VHF/UHF             |
+| https://afutest.ewers.net/tests/2021-EA/1277/ | 2021-09-09 | Frequenzen (Betrieb)                       |
+| https://afutest.ewers.net/tests/2021-EA/1279/ | 2021-09-09 | Frequenzen (Vorschriften)                  |
+| https://afutest.ewers.net/tests/2021-EA/1281/ | 2021-09-16 | Betriebs- und Sendearten (Betrieb)         |
+| https://afutest.ewers.net/tests/2021-EA/1283/ | 2021-09-16 | Betriebs- und Sendearten (Vorschriften)    |
+| https://afutest.ewers.net/tests/2021-EA/1116/ | 2021-09-23 | Digitale Betriebsarten (Betrieb)           |
+| https://afutest.ewers.net/tests/2021-EA/1286/ | 2021-09-23 | Digitale Betriebsarten (Vorschriften)      |
+| https://afutest.ewers.net/tests/2021-EA/1119/ | 2021-09-30 | Störungen, EMV, Sicherheit                 |
 
 ### Fortschritt (Betrieb)
 
@@ -106,6 +139,10 @@
 | https://afutest.ewers.net/tests/2021-EA/1201/ | 2021-07-22 |
 | https://afutest.ewers.net/tests/2021-EA/1264/ | 2021-07-29 |
 | https://afutest.ewers.net/tests/2021-EA/1207/ | 2021-08-05 |
+| https://afutest.ewers.net/tests/2021-EA/1278/ | 2021-09-09 |
+| https://afutest.ewers.net/tests/2021-EA/1282/ | 2021-09-16 |
+| https://afutest.ewers.net/tests/2021-EA/1211/ | 2021-09-23 |
+| https://afutest.ewers.net/tests/2021-EA/1213/ | 2021-09-30 |
 
 ### Fortschritt (Vorschriften)
 
@@ -120,3 +157,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1202/ | 2021-07-22 |
 | https://afutest.ewers.net/tests/2021-EA/1265/ | 2021-07-29 |
 | https://afutest.ewers.net/tests/2021-EA/1208/ | 2021-08-05 |
+| https://afutest.ewers.net/tests/2021-EA/1280/ | 2021-09-09 |
+| https://afutest.ewers.net/tests/2021-EA/1284/ | 2021-09-16 |
+| https://afutest.ewers.net/tests/2021-EA/1212/ | 2021-09-23 |
+| https://afutest.ewers.net/tests/2021-EA/1214/ | 2021-09-30 |
