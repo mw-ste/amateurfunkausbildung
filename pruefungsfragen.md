@@ -23,6 +23,11 @@
 | https://afutest.ewers.net/tests/2021-EA/1094/ | 2021-10-07 | De-/Modulation                                     |
 | https://afutest.ewers.net/tests/2021-EA/1148/ | 2021-10-14 | Digitaltechnik, Zahlensysteme, Übertragungstechnik |
 | https://afutest.ewers.net/tests/2021-EA/1273/ | 2021-10-21 | Messtechnik 1                                      |
+| https://afutest.ewers.net/tests/2021-EA/1287/ | 2021-10-28 | Messtechnik 2                                      |
+| https://afutest.ewers.net/tests/2021-EA/1288/ | 2021-11-04 | EMV, EMVU und Sicherheit 1                         |
+| https://afutest.ewers.net/tests/2021-EA/1348/ | 2021-11-11 | EMV, EMVU und Sicherheit 2                         |
+| https://afutest.ewers.net/tests/2021-EA/1099/ | 2021-11-18 | Schaltungstechnik                                  |
+| https://afutest.ewers.net/tests/2021-EA/1100/ | 2021-11-25 | Gerätetechnik                                      |
 
 ### Fortschritt A
 
@@ -48,6 +53,11 @@
 | https://afutest.ewers.net/tests/2021-EA/1168/ | 2021-10-07 |
 | https://afutest.ewers.net/tests/2021-EA/1169/ | 2021-10-14 |
 | https://afutest.ewers.net/tests/2021-EA/1274/ | 2021-10-21 |
+| https://afutest.ewers.net/tests/2021-EA/1275/ | 2021-10-28 |
+| https://afutest.ewers.net/tests/2021-EA/1289/ | 2021-11-04 |
+| https://afutest.ewers.net/tests/2021-EA/1290/ | 2021-11-11 |
+| https://afutest.ewers.net/tests/2021-EA/1270/ | 2021-11-18 |
+| https://afutest.ewers.net/tests/2021-EA/1271/ | 2021-11-25 |
 
 # Technik E
 
@@ -72,6 +82,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1079/ | 2021-10-07 | Betriebsarten                                   |
 | https://afutest.ewers.net/tests/2021-EA/1081/ | 2021-10-14 | Messtechnik                                     |
 | https://afutest.ewers.net/tests/2021-EA/1080/ | 2021-10-21 | Sender- und Empfängertechnik                    |
+| https://afutest.ewers.net/tests/2021-EA/1082/ | 2021-10-28 | EMV und Sicherheit                              |
 
 ### Fortschritt E
 
@@ -95,6 +106,7 @@
 | https://afutest.ewers.net/tests/2021-EA/1185/ | 2021-10-07 |
 | https://afutest.ewers.net/tests/2021-EA/1187/ | 2021-10-14 |
 | https://afutest.ewers.net/tests/2021-EA/1186/ | 2021-10-21 |
+| https://afutest.ewers.net/tests/2021-EA/1188/ | 2021-10-28 |
 
 # Kenntnisse von Vorschriften
 
